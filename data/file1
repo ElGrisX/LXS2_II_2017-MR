@@ -1,0 +1,10 @@
+[    0.000000] microcode: microcode updated early to revision 0x1e, date = 2015-08-13
+[    0.000000] Linux version 4.8.0-36-generic (buildd@lgw01-18) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #36~16.04.1-Ubuntu SMP Sun Feb 5 09:39:57 UTC 2017 (Ubuntu 4.8.0-36.36~16.04.1-generic 4.8.11)
+[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-4.8.0-36-generic root=UUID=d3d2a03a-7586-4703-b146-4b735e749270 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'

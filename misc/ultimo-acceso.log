@@ -1,0 +1,10 @@
+estudian tty7         :0               Sat Mar 18 08:13    gone - no logout
+reboot   system boot  4.8.0-36-generic Sat Mar 18 08:12   still running
+estudian tty7         :0               Fri Mar 17 19:15 - down   (00:09)
+reboot   system boot  4.8.0-36-generic Sat Mar 18 00:02 - 19:24  (-4:-37)
+reboot   system boot  4.8.0-36-generic Fri Mar 17 02:52 - 08:54  (06:01)
+estudian tty7         :0               Wed Mar  8 19:53 - 19:54  (00:00)
+soporte  tty7         :0               Wed Mar  8 19:51 - 19:53  (00:02)
+reboot   system boot  4.8.0-36-generic Wed Mar  8 19:50 - 08:54 (8+13:03)
+
+wtmp begins Wed Mar  8 19:50:28 2017
