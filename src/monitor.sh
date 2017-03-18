@@ -7,7 +7,7 @@
 echo "Ingrese ruta a respaldar:"
 read dir
 
-
+##actualizar con el de el profe.
 echo Reporte: >>/tmp/reporte
 date >> /tmp/reporte
 echo $dir >> /tmp/reporte
