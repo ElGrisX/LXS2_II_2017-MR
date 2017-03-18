@@ -1,0 +1,250 @@
+    1  ip -4 addr 
+    2  su - soporte
+    3  type git
+    4  cd Documents
+    5  mkdir LXS2_II_2017-MR
+    6  ls
+    7  cd LXS2_II_2017-MR
+    8  git init
+    9  tree
+   10  sudo apt install tree
+   11  su soporte
+   12  tree
+   13  tree -a
+   14  ls -la
+   15  git config --global user.name "ElGrisX"
+   16  git config --global user.email "reyescarmona@gmail.com"
+   17  vim ~/.gitconfig 
+   18  vim gitignore
+   19  touch logs/file1
+   20  mkdir logs
+   21  touch logs/file1
+   22  touch {data,misc,src}
+   23  ls
+   24  touch misc/file1
+   25  mkdir {data,misc,src}
+   26  rmdir data
+   27  rm data
+   28  rm misc
+   29  touch
+   30  mkdir {data,misc,src}
+   31  ls
+   32  touch misc/file1
+   33  touch data/file1
+   34  touch data/file2
+   35  touch src/file1
+   36  git add --all
+   37  git status
+   38  touch data/file3
+   39  git status
+   40  last > misc/ultimo-acceso.log
+   41  dmesg | head >>data/file1
+   42  git status
+   43  git add data/file1
+   44  status
+   45  git status
+   46  git add data/file3
+   47  git add misc/ultimo-acceso.log 
+   48  git status
+   49  git commit -m "Dos nuevos archivos"
+   50  git log
+   51  git config --global user.username "ElGrisX"
+   52  cd Documents
+   53  ls
+   54  cd LXS2_II_2017-MR/
+   55  ls
+   56  git log
+   57  git commit -m "Dos nuevos archivos"
+   58  git config --global user.email "reyescarmona@gmail.com"
+   59  git config --global user.username "ElGrisX"
+   60  git config --global user.email "reyescarmona@gmail.com"
+   61  git commit -m "Dos nuevos archivos"
+   62  git log
+   63  git remote add origin https://github.com/ElGrisX/LXS2_II_2017-MR.git
+   64  git remote -v
+   65  git push -u origin master
+   66  touch data/file4
+   67  git add data/file4
+   68  git status
+   69  git commit
+   70  git commit -m "nuevo archivo4"
+   71  git push -u origin master
+   72  cd ..
+   73  mkdir backup
+   74  ls
+   75  cd backup/
+   76  git clone https://github.com/ElGrisX/LXS2_II_2017-MR.git mi-repo-remoto
+   77  ls
+   78  cd
+   79  fdisk
+   80  fdisk -l
+   81  cd Documents/
+   82  mkdir
+   83  mkdir history
+   84  alias STm 'date +%Y%m%d'
+   85  alias STm='date +%Y%m%d'
+   86  STm
+   87  var_time = 'STm'
+   88  var_time= 'STm'
+   89  tree
+   90  STm
+   91  var_time= 'STm'
+   92  var_time= ´STm´
+   93  var_time=´STm´
+   94  history > history/history-$var_time
+   95  tree
+   96  var_time=`STm`
+   97  history > history/history-$var_time
+   98  tree
+   99  alias -p
+  100  reportes () { cd /usr/share/doc; echo "Report del dia `date +%Y%m%d`" > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh . >>/tmp/reporte; }
+  101  reporte
+  102  reportes
+  103  ls
+  104  cat /tmp/reporte
+  105  cd Downloads/
+  106  ls
+  107  cat virt-inst.sh 
+  108  ls
+  109  cd
+  110  ls
+  111  cd Documents/
+  112  ls
+  113  cd LXS2_II_2017-MR/
+  114  cd src/
+  115  echo '#!/bin/bash' > monitor.sh 
+  116  cat monitor.sh 
+  117  echo 'cd /usr/share/doc' >> monitor.sh 
+  118  echo 'echo Reporte: >>/tmp/reporte' >> monitor.sh 
+  119  echo 'date >> /tmp/reporte' >> monitor.sh 
+  120  echo 'pwd >> /tmp/reporte' >> monitor.sh 
+  121  echo 'du -sh  >> /tmp/reporte' >> monitor.sh 
+  122  vim monitor.sh 
+  123  chmod u+x monitor.sh 
+  124  ls -l
+  125  ls /tmp/
+  126  rm reporte+
+  127  rm reporte
+  128  rmdir reporte
+  129  rm /tmp/reporte
+  130  ls /tmp/
+  131  vim monitor.sh 
+  132  ls
+  133  ./monitor.sh 
+  134  vim monitor.sh 
+  135  ./monitor.sh 
+  136  cat /tmp/reporte
+  137  vim monitor.sh 
+  138  git status
+  139  git add monitor.sh 
+  140  git status 
+  141  git commit -m "Creacion del script de monitoreo"
+  142  git push origin master 
+  143  cd ..
+  144  ls
+  145  cd
+  146  cd test
+  147  ls
+  148  Documents/
+  149  cd Documents/
+  150  ls
+  151  cd LXS2_II_2017-MR/
+  152  mkdir test
+  153  cd test/
+  154  git clone https://github/emvarg/LXS2_II-2017_evb.git repor-del-profe
+  155  git clone https://github.com/emvarg/LXS2_II-2017_evb.git repor-del-profe
+  156  ls
+  157  cd repor-del-profe/
+  158  ls
+  159  cd src/
+  160  ls
+  161  cat monitor.sh 
+  162  git status
+  163  cd ..
+  164  cd ...
+  165  cd ....
+  166  cd .. ..
+  167  cd ..
+  168  ls -l
+  169  cd src
+  170  ls
+  171  vim monitor.sh 
+  172  ./monitor.sh 
+  173  git status
+  174  git diff monitor.sh
+  175  git commiit
+  176  git commit
+  177  git add monitor.sh 
+  178  git status 
+  179  git commit
+  180  git status 
+  181  ls
+  182  ls -l
+  183  git push origin master 
+  184  git config --global core.editor "vim"
+  185  cat 
+  186  git commit
+  187  git status 
+  188  ls
+  189  cat monitor.sh 
+  190  get stat
+  191  git status
+  192  git diff monitor.sh
+  193  git commit monitor.sh 
+  194  git commit
+  195  git push origin master 
+  196  vim ../.gitignore
+  197  cat ../.gitignore
+  198  ./monitor.sh 
+  199  vim monitor.sh 
+  200  ls -la
+  201  rm .monitor.sh.swp
+  202  vim monitor.sh 
+  203  git add monitor.sh 
+  204  git commit
+  205  git push origin master 
+  206  git status
+  207  git add /all
+  208  git add --all
+  209  git status
+  210  git commit -m "actualizando todos los archivos"
+  211  git status
+  212  git push cd
+  213  cd
+  214  if [ $USER ]
+  215  if [ $USER = soporte ]; then echo 'hi sysadmin!'; fi
+  216  S?
+  217  if [ $USER = soporte ]; then echo 'hi sysadmin!'; fi
+  218  $?
+  219  if [ $USER = soporte ]; then echo 'hi sysadmin!'; fi;
+  220  $?
+  221  cd Documents/
+  222  ls
+  223  cd LXS2_II_2017-MR/
+  224  ls
+  225  cd src
+  226  vim script.sh
+  227  chmod u+x script.sh 
+  228  ./script.sh 
+  229  ./script.sh a b c
+  230  ./script.sh a b 
+  231  ./script.sh 1 2 3
+  232  vim script.sh
+  233  ./script.sh perro a b
+  234  ./script.sh perr a b
+  235  git add script.sh 
+  236  git status
+  237  git commit -m "script nuevo de verificacion"
+  238  git push origin master 
+  239  vim script.sh 
+  240  history > history.txt
+  241  cat history.txt 
+  242  cd Documents/
+  243  ls
+  244  LXS2_II_2017-MR/
+  245  cd LXS2_II_2017-MR/
+  246  ls
+  247  mkdir History
+  248  history 
+  249  cd History/
+  250  history > History-Clase.txt
